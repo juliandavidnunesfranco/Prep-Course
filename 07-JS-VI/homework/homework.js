@@ -5,6 +5,7 @@ function mayuscula(nombre) {
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
   return nombre[0].toUpperCase() + nombre.slice(1).toLowerCase();
+  
 }
 
 function invocarCallback(cb) {
